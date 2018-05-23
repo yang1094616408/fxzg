@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	/* 样式重置*/
+	body {margin:0; padding:0; font-size:15px; font-family: "Microsoft YaHei";}
+	div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+
+	ol,ul {list-style:none;}
+	li{list-style-type:none;}
+	img{vertical-align:top;border:0;max-width: 100%; height:auto;}
+	h2,h3,h4,h5,h6{font:"Microsoft YaHei";  font-weight:lighter; } 
+	address,cite,code,em,th,i,var{font-weight:normal; font-style:normal;}
+	.clearfix{*zoom:1;}
+	.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+	a:link,a:visited
+	{
+	    color:#000;
+	    text-decoration: none;
+	}
+
+	/* 自写样式 */
+	#body1{
+		background:  url(bg.jpg) left top repeat;
+	}
+	/* header */
+	header{
+		/*position: absolute; 这里不需要定位，因为定位的box不占空间*/
+		width:100%;
+		line-height: 58px;
+		height: 58px;
+		background-color: rgba(60,60,70,.9);
+		color: rgba(255,255,255,.8);
+		text-indent: 2em;
+		overflow:hidden;
+	}
+	header>.h1{
+		float: left;
+		font-size: 28px;
+	}
+	header>.h2{
+		font-size: 20px;
+		float: right;
+		width: 80px;
+		height: 58px;
+		line-height: 68px; /*行高等于高度时，字体垂直居中 */
+		text-align: center; /*字体横向居中 */
+	}
+	/* main样式 */
+	.main{
+		width: 90%;
+		height:460px;/*此处高度需要可变*/
+		margin: 20px auto 20px;
+		background-color: rgba(250, 240, 240, 0.7);
+		border-radius: 1%;
+	}
+	/* .poi {
+		width: 20%;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 15px 15px 15px 3%;
+		float: left;
+		box-sizing:border-box;
+	}
+	
+	.container {
+		text-align: center;
+		padding: 10px 20px;
+	} */
+	
+	/* footer*/
+	footer{
+
+		bottom: 0px;
+		height: 120px;
+		width:100%;
+		line-height: 58px;
+		background-color: rgba(60,60,70,.9);
+		color: rgba(255,255,255,.8);
+		text-indent: 2em;
+		overflow:hidden;
+	} 
+	footer>p{
+		margin: 10px auto;
+		width: 100%;
+		height: 20px; 
+		text-align: center;
+	}
+
+	.main>p {
+		text-indent:4em;
+		font-size: 1.2em;
+		line-height: 1.5em;
+		color:
+		font-family:"楷体";
+	}
+	.main>h2{
+		text-indent: 2em;
+		font-size: 2em;
+		font-family: "黑体";
+		line-height: 1.8em;
+	}
+
+
+	</style>
+</head>
+<body id="body1">
+	<header>
+		<div class="h1" onClick="location.href='index.html'">佛系中国</div>
+    	<div class="h2">&nbsp;</div>
+    	<div class="h2">注&nbsp;册</div>
+    	<div class="h2">登&nbsp;录</div>
+	</header>
+
+	<div class="main">
+	<h2>药师灌顶真言</h2>
+		<p>南无薄伽伐帝鞞杀社</p>
+		<p>窭噜薜琉璃</p>
+		<p>跋喇婆</p>
+		<p>喝啰阇也</p>
+		<p>怛他揭多也</p>
+		<p>阿啰喝帝</p>
+		<p>三藐三勃陀耶</p>
+		<p>怛侄他</p>
+		<p>唵</p>
+		<p>鞞刹逝</p>
+		<p>鞞刹逝</p>
+		<p>鞞刹社</p>
+		<p>三没揭帝莎诃</p>
+		<audio autoplay="autoplay" loop="loop"
+		src="佛教音乐 - 药师灌顶真言.mp3">
+		您的浏览器不支持 audio 标签。
+		</audio>
+	</div>
+	<footer>
+		<p>本网站由帅得不要不要的吹雪士郎大人创建  没有允许不得转载</p>
+		<p>备胎号（伪）1094616408@qq.com</p>	
+	</footer>
+</body>
+</html>
